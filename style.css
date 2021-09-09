@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    overflow-x: hidden;
+}
+.d-flex {
+    display: flex;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/*  NAVBAR   */
+
+nav {
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+ul {
+    
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    margin: auto 1rem;
+    color: hsl(228, 45%, 44%);
+    cursor: pointer;
+}
+li:hover {
+    color: hsl(227, 12%, 61%);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: hsl(12, 88%, 59%);
+    border: none;
+    color: #FFFFFF;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: .7;
+}
+.logo {
+    height: 20px;
+    margin-top: .6rem;
+}
+.nav-bg {
+    z-index: -1;
+    position: absolute;
+    /* top: 0; */
+    bottom: 5%;
+    left: 48.5%;
+}
+
+/* firstSection */
+
+.firstSection {
+    padding-top: 7rem;
+}
+.left-text > h1 {
+    font-size: 46px;
+    width: 90%;
+    font-family: 'Be Vietnam', sans-serif;
+    color: hsl(228, 39%, 23%);
+    font-weight: 700;
+    line-height: 50px;
+    padding-top: 4rem;
+}
+.left-text > p {
+    width: 75%;
+    color: hsl(227, 12%, 61%);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 18px;
+}
+
+/* secondSection  */
+
+.secondSection {
+    padding-top: 5rem;
+}
+.about-left {
+    padding-right: 7rem;
+}
+.about-left > h1 {
+    font-family: 'Be Vietnam', sans-serif;
+    color: hsl(228, 39%, 23%);
+    line-height: 35px;
+    padding-bottom: 2rem;
+}
+.about-left > p {
+    color: hsl(227, 12%, 61%);
+    width: 80%;
+    font-size: 18px;
+}
+.about-number > h4 {
+    background-color: hsl(12, 88%, 59%);
+    padding: 7px 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: #FFFFFF;
+    margin-right: 1.5rem;
+}
+.first-text > h6,
+.second-text > h6,
+.third-text > h6 {
+    color: hsl(228, 39%, 23%);
+    font-size: 16px;
+    padding-bottom: 1.5rem;
+    padding-top: .5rem;
+}
+.first-text > p,
+.second-text > p,
+.third-text > p
+ {
+    color: hsl(227, 12%, 61%);
+    padding-bottom: 3rem;
+    line-height: 23px;
+}
+.first-text > p {
+    width: 85%;
+}
+.second-text > p {
+    width: 90%;
+}
+.third-text > p {
+    width: 75%;
+}
+.sS-bg {
+    z-index: -1;
+    position: absolute;
+    top: 140%;
+    right: 75%;
+}
+
+/* thirdSection */
+.thirdSection {
+    position: relative;
+}
+
+.thirdSection-text > h1 {
+    font-family: 'Be Vietnam', sans-serif;
+    color: hsl(228, 39%, 23%);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.thirdSection-button{
+    text-align: center;
+}
+
+.cards {
+    margin: 1rem auto;
+    padding-bottom: 2rem;
+}
+.card {
+    text-align: center;
+    width: 400px;
+    border: none;
+    background-color: hsl(0, 0%, 98%);
+    margin-left: .5rem;
+    margin-right: .5rem;    
+    
+}
+.card > h6 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 14px;
+    color: hsl(228, 39%, 23%);
+    font-family: 'Be Vietnam', sans-serif;
+}
+.card > p {
+    padding-bottom: 1rem;
+    color: hsl(227, 12%, 61%);
+    text-align: center;
+}
+.card > img {
+    width: 15%;
+}
+
+/* fourthSection */
+
+.fourthSection {
+    margin-top: 10rem;
+    width: 1440px;
+    height: 200px;
+    background-color: hsl(12, 88%, 59%);
+}
+.fourthSection-content {
+    justify-content: space-between;
+    padding-top: 3.5rem;
+}
+.fourthSection-content h1 {
+    color: #FFFFFF;
+    font-size: 42px;
+    width: 70%;
+}
+.btn {
+    background-color: #FFFFFF;
+    color: hsl(12, 88%, 59%);
+    margin-top: 1rem;
+}
+
+/* footer */
+.footer {
+    width: 1440px;
+    height: 200px;
+    background-color: hsl(228, 14%, 14%);
+}
+
+
+
+
+
+
+
+
+
+
+
